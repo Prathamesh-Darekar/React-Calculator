@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border-radius: 25px;
+    font-family: "Orbitron", sans-serif;
+}
+
+body{
+  height: 100vh;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+table{
+  margin:auto; 
+  border:2px solid black;
+  padding:20px;
+  width:450px;
+  margin-top: 30px;
+  background-color: #495057;
+}
+
+input[type=number],input[type=text]{
+  width:100%;
+  text-align: right;
+  border:none;
+  background-color:antiquewhite;
+  padding:5px;
+  border-radius: 20px;
+}
+
+#input-box1{
+  border-bottom:none;
+  height:60%;
+  font-size: 30px;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+}
+
+#input-box2{
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+  border-top: none;
+  font-size:20px;
+  height:40%;
+}
+
+td{
+  width:90px;
+  height:90px;
+  text-align: center;
+}
+
+button{
+  font-weight: 500;
+  height:85%;
+  width: 85%;
+  font-size:28px;
+  background-color: #816797;
+  border:none;
+}
+
+td div{
+  height: 85%;
+  width:100%
+}
+
+.last-column button{
+  background-color:burlywood !important;
+}
+
+#crimson{
+  background-color:crimson !important;
+  color:darkgrey
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+input[type=button]:active {
+  background-color: beige !important;
+  border-radius: 10px;
+}
