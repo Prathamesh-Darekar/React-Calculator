@@ -95,8 +95,8 @@ function App() {
             <tr>
               <td colSpan="3">
                 <div>
-                  <input type="text" id="input-box1" pattern="[0-9]" value={expression} /><br />
-                  <input type="text" id="input-box2" value={result} />
+                  <input disabled type="text" id="input-box1" pattern="[0-9]" value={expression} /><br />
+                  <input disabled type="text" id="input-box2" value={result} />
                 </div>
               </td>
               <td><button id="crimson" onClick={() => Close()}>C</button></td>
