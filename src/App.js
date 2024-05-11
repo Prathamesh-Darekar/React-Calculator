@@ -52,7 +52,12 @@ function App() {
     setExpression(expression = expression.concat(value));  // Concatenating the value of the button user cicked 
     if (value !== '+' && value !== '-' && value !== '/' && value !== '*') {
       if (braceCount === 0 && expression.slice(-1) !== '.') {
-        setResult(eval(expression));  // Calculates the Expression
+        try{
+          setResult(eval(expression));  // Calculates the Expression
+        }catch{
+          value=='0'?setExpression(expression = expression.slice(0,-1)): setExpression(expression = expression.slice(0,-2));
+          alert("Please use valid expression");
+        }
       }
     }
   }
