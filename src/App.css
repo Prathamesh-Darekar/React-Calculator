@@ -3,7 +3,7 @@
   padding:0;
   box-sizing: border-box;
   border-radius: 25px;
-    font-family: "Orbitron", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 body{
@@ -22,7 +22,7 @@ table{
   background-color: #495057;
 }
 
-input[type=number],input[type=text]{
+input{
   width:100%;
   text-align: right;
   border:none;
@@ -80,7 +80,6 @@ button:hover{
   cursor:pointer;
 }
 
-input[type=button]:active {
-  background-color: beige !important;
-  border-radius: 10px;
+button:active {
+  border-radius: 18px;
 }
